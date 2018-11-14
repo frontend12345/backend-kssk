@@ -47,7 +47,7 @@ export class CmsComponent implements OnInit {
 	fileList: FileList;
 	
 	// for gallery
-	sliderUrl: (string | IImage)[] = [{url:'assets/img/slider1.jpg',caption:'<center><font size="5">Press Conference Rapat Berkala KSSK Triwulan I Tahun 2018</font></center>'},{url:'assets/img/slider2.jpg',caption:'<center><font size="5">Rapat Berkala KSSK Triwulan II Tahun 2018</font></center>'}];
+	sliderUrl: (string | IImage)[] = [{url:'https://portal-kssk.herokuapp.com/assets/img/slider1.jpg',caption:'<center><font size="5">Press Conference Rapat Berkala KSSK Triwulan I Tahun 2018</font></center>'},{url:'https://portal-kssk.herokuapp.com/assets/img/slider2.jpg',caption:'<center><font size="5">Rapat Berkala KSSK Triwulan II Tahun 2018</font></center>'}];
 	listSliderFile: (string | IImage)[] = [];
 	captionBackground: string = 'rgba(47, 84, 150, 0.9)';
 	captionColor: string = '#FFF';
